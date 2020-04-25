@@ -1,0 +1,32 @@
+{
+    "users_meetings" : {
+        "user_id1" : {
+            "meetings" : {
+                "user_id_met1" : {
+                    "found_timestamp" : "",
+                    "lost_timestamp" : "",
+                    "status" : ""
+                },
+                "user_id_met2" : {
+                    "found_timestamp" : "",
+                    "lost_timestamp" : "",
+                    "status" : ""
+                }
+            }
+        },
+        "user_id2" : {
+            "meetings" : {
+                "user_id_met1" : {
+                    "found_timestamp" : "",
+                    "lost_timestamp" : "",
+                    "status" : ""
+                },
+                "user_id_met2" : {
+                    "found_timestamp" : "",
+                    "lost_timestamp" : "",
+                    "status" : ""
+                }
+            }
+        }
+    }
+}

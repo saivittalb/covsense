@@ -1,0 +1,10 @@
+{
+    "users": {
+        "user_id1" : {
+        "phone" : ""
+        },
+        "user_id2" : {
+        "phone" : ""
+        }
+    }
+}
