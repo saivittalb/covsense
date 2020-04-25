@@ -1,4 +1,5 @@
 # CovSense
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b0fa4c8276e4721b145e75be5ad3b5b)](https://app.codacy.com/manual/saivittalb/covsense?utm_source=github.com&utm_medium=referral&utm_content=saivittalb/covsense&utm_campaign=Badge_Grade_Dashboard)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Version](https://badge.fury.io/gh/saivittalb%2Fcovsense.svg)](https://badge.fury.io/gh/saivittalb%2FCovsense) [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![Dependencies](https://david-dm.org/saivittalb/covsense.svg)](https://david-dm.org/saivittalb/covsense) [![devDependencies](https://david-dm.org/saivittalb/covsense/dev-status.svg)](https://david-dm.org/saivittalb/covsense?type=dev)
 [![GitHub followers](https://img.shields.io/github/followers/saivittalb.svg?style=social&label=Follow)](https://github.com/saivittalb?tab=followers) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/saivittalb.svg?style=social)](https://twitter.com/saivittalb) 
