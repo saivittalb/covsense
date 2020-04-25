@@ -1,14 +1,12 @@
 # CovSense
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b0fa4c8276e4721b145e75be5ad3b5b)](https://app.codacy.com/manual/saivittalb/covsense?utm_source=github.com&utm_medium=referral&utm_content=saivittalb/covsense&utm_campaign=Badge_Grade_Dashboard)
-[![Build Status](https://travis-ci.org/saivittalb/covsense.svg?branch=master)](https://travis-ci.org/saivittalb/covsense)
 [![Version](https://badge.fury.io/gh/saivittalb%2Fcovsense.svg)](https://badge.fury.io/gh/saivittalb%2FCovsense)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
-[![Dependencies](https://david-dm.org/saivittalb/covsense.svg)](https://david-dm.org/saivittalb/covsense) [![devDependencies](https://david-dm.org/saivittalb/covsense/dev-status.svg)](https://david-dm.org/saivittalb/covsense?type=dev)
 [![GitHub followers](https://img.shields.io/github/followers/saivittalb.svg?style=social&label=Follow)](https://github.com/saivittalb?tab=followers) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/saivittalb.svg?style=social)](https://twitter.com/saivittalb) 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/36305142/80282766-eb0e8a00-8730-11ea-9fa8-b0861d046ad1.png" height="300" width="300"></p> 
+<p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/poised-elf-275018.appspot.com/o/logo.png?alt=media&token=80d1d621-b2cc-4a0d-8672-b6da83485d86" height="300" width="300"></p> 
 
 An Android based contact tracing app which enables people to self-isolate if they have been in close proximity to someone tested positive for COVID-19. The app uses a combination of Wi-Fi, Bluetooth, BluetoothLE and ultrasonic modem to communicate a unique-in-time pairing code between devices (using the Nearby Messages Google API). This technology can be scaled beyond the demo to work on iOS as well. Furthermore the solution can be embedded in other existing applications as a library to have larger adoption of the contact tracer.
 
