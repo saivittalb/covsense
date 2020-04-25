@@ -66,7 +66,7 @@ Developed with Android Studio version 3.6.3.
 - Update your <b>AndroidManifest.xml</b> file in maps meta data with your <b>API_KEY</b>, ```value = "YOUR_MAPS_API_KEY_HERE"```.
 - Go to your Firebase console, setup this project, select Android app, add the package name of this app and download <b>google-services.json</b>.
 - Move the <b>google-services.json</b> file you just downloaded into your Android app module root directory.
-- Create a <b>gradle.properties</b> file and enter the following lines.
+- Create a <b>gradle.properties</b> file in the project's root directory and enter the following lines.
 ```
 android.useAndroidX=true
 android.enableJetifier=true
