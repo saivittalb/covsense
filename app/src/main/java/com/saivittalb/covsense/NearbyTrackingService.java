@@ -28,7 +28,6 @@ import com.google.firebase.firestore.FieldValue;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.TimeZone;
 
 import static com.saivittalb.covsense.Utils.writeToStorage;
 
@@ -40,7 +39,7 @@ public class NearbyTrackingService extends Service {
     private String myUserUID;
     private Context context = this;
     private long onFoundStart = -1;
-    private long contactDuration = -1;
+    public long contactDuration = -1;
 
     @Nullable
     @Override

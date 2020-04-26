@@ -28,7 +28,6 @@ public class MeetingActivity extends FragmentActivity implements OnMapReadyCallb
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meeting);
 
-
         String metUserID = getIntent().getStringExtra("MET_USER_ID");
         int duration = getIntent().getIntExtra("DURATION", -1);
 

@@ -16,6 +16,8 @@ import com.saivittalb.covsense.dbhelpers.FirebaseDatabaseHelper;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import java.util.Objects;
+
 public class CustomFirebaseMessagingService extends FirebaseMessagingService {
     private static final String TAG = "CustomFMService";
 
@@ -59,10 +61,10 @@ public class CustomFirebaseMessagingService extends FirebaseMessagingService {
             String filePath = getApplicationContext().getFilesDir().toString() + "/meetings" + "/" + metUserID;
 
             String date = Utils.readFromStorage(filePath, "date.txt");
-            Integer duration = Utils.readFromStorage(filePath, "duration.txt") != null ? Integer.parseInt(Utils.readFromStorage(filePath, "duration.txt")) : -1;
+            Integer duration = Utils.readFromStorage(filePath, "duration.txt") != null ? Integer.parseInt(Objects.requireNonNull(Utils.readFromStorage(filePath, "duration"))) : -1;
 
-            Float latitude = Utils.readFromStorage(filePath, "latitude.txt") != null ? Float.parseFloat(Utils.readFromStorage(filePath, "latitude.txt")) : -1;
-            Float longitude = Utils.readFromStorage(filePath, "longitude.txt") != null ? Float.parseFloat(Utils.readFromStorage(filePath, "longitude.txt")) : -1;
+            Float latitude = Utils.readFromStorage(filePath, "latitude.txt") != null ? Float.parseFloat(Objects.requireNonNull(Utils.readFromStorage(filePath, "latitude"))) : -1;
+            Float longitude = Utils.readFromStorage(filePath, "longitude.txt") != null ? Float.parseFloat(Objects.requireNonNull(Utils.readFromStorage(filePath, "longitude"))) : -1;
 
             Intent dialogIntent = new Intent(this, MeetingActivity.class);
             dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -87,7 +89,7 @@ public class CustomFirebaseMessagingService extends FirebaseMessagingService {
         NotificationCompat.Builder notificationBuilder =
                 new NotificationCompat.Builder(this, channelId)
                         .setSmallIcon(R.drawable.ic_launcher_foreground)
-                        .setContentTitle("Carefully maintain distance from others until you test yourself for COVID-19")
+                        .setContentTitle("Careful")
                         .setContentText("Change status")
                         .setStyle(new NotificationCompat.BigTextStyle().bigText(messageBody))
                         .setAutoCancel(true)

@@ -1,7 +1,6 @@
 package com.saivittalb.covsense.models;
 
 import com.google.firebase.firestore.FieldValue;
-import com.google.firebase.firestore.GeoPoint;
 
 public class Meet {
     private FieldValue foundTimestamp;

@@ -37,5 +37,5 @@
     <string name="text_permissions_3">Storage of your phone number</string>
     <string name="phone_desc">Enter your phone number. You will receive a unique code by SMS, which you will have to enter in the box below:</string>
     <string name="code_desc">Enter the code received by SMS:</string>
-    <string name="push_notification">Important: Someone you interacted with changed his status from:  %1$s to %2$s</string>
+    <string name="push_notification">CovSense: Someone you interacted with changed his status from:  %1$s to %2$s</string>
 </resources>
