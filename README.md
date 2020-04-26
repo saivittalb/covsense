@@ -25,9 +25,9 @@ This project is licensed under the Apache License 2.0, a permissive license whos
 ### Light theme
 <p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/poised-elf-275018.appspot.com/o/LightThemeScreens.png?alt=media&token=ebcd46f2-7a91-4231-a070-0fa7cfd2379e"></p> 
 
-## Android Signed APK build 0.1.0 (Debug)
+## Android Signed APK build (Debug)
 The signed ```.apk``` debug build variant of this app that you can install on your Android device is available here in the link below. \
-https://firebasestorage.googleapis.com/v0/b/poised-elf-275018.appspot.com/o/CovSense-debug.apk?alt=media&token=d1da4599-6b9b-4eb0-9913-e80b6098c2f2
+https://firebasestorage.googleapis.com/v0/b/poised-elf-275018.appspot.com/o/app-debug.apk?alt=media&token=e59d898b-7f66-4055-9a21-48a11fef1e37
 
 ## Demo
 A short video demonstration of the app when the health status of one user has been modified is available here in the links below.\
