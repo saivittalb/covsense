@@ -101,7 +101,7 @@ Two tables named <b>users.json</b> and <b>users-meetings.json</b> are pre-saved 
 - Open terminal/console window. 
 - Clone the repository by running following command in git:
  ```bash
-$ git clone https://github.com/[YOUR-USERNAME]/BasicCRUDWebApp.git
+$ git clone https://github.com/[YOUR-USERNAME]/covsense.git
 ```
 - Add all changes by running this command.
 ```bash
