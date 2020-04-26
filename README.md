@@ -84,9 +84,9 @@ android.enableJetifier=true
 ```bash
 $ cd ./firestore/functions
 
-$ npm install
-
 $ yarn
+
+$ npm install
 
 $ cd ..
  
